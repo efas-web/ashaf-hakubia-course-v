@@ -59,6 +59,12 @@
             text-align: right;
         }
 
+        /* עיצוב מיוחד לסרטון המבוא הראשי */
+        .intro-card {
+            border-right: 8px solid var(--brand-orange);
+            background: #fff8f2;
+        }
+
         .lesson-header {
             display: flex;
             justify-content: space-between;
@@ -82,6 +88,10 @@
             border-radius: 20px;
             font-weight: bold;
             font-size: 0.9rem;
+        }
+        
+        .intro-label {
+            background: #000000;
         }
 
         /* נגן הוידאו */
@@ -160,18 +170,29 @@
 
     <div class="container">
 
+        <div class="lesson-card intro-card">
+            <div class="lesson-header">
+                <div class="lesson-title">סרטון מבוא: מתחילים כאן! 🚀</div>
+                <div class="day-label intro-label">מבוא לקורס</div>
+            </div>
+            
+            <div class="video-container">
+                <iframe src="https://drive.google.com/file/d/19GvWCR0VbeC8HaICU3ryB8DrfsWtWrfW/preview"></iframe>
+            </div>
+        </div>
+
         <div class="lesson-card">
             <div class="lesson-header">
-                <div class="lesson-title">שיעור 1: סרטון מבוא והצעדים הראשונים</div>
+                <div class="lesson-title">שיעור 1: הצעדים הראשונים והכרת הקובייה</div>
                 <div class="day-label">יום 1</div>
             </div>
             
             <div class="video-container">
-                <iframe src="https://drive.google.com/file/d/כאן_שמים_את_הקוד_של_הוידאו/preview"></iframe>
+                <iframe src="https://drive.google.com/file/d/כאן_שמים_את_הקוד_של_וידאו_1/preview"></iframe>
             </div>
 
             <div class="download-area">
-                <a href="קישור_לקובץ_PDF" class="download-btn" target="_blank">📄 הורדת דף עבודה - יום 1</a>
+                <a href="קישור_לקובץ_PDF_1" class="download-btn" target="_blank">📄 הורדת דף עבודה - יום 1</a>
                 <span class="download-text">מומלץ להדפיס ולתרגל תוך כדי צפייה</span>
             </div>
         </div>
@@ -183,11 +204,11 @@
             </div>
             
             <div class="video-container">
-                <iframe src="https://drive.google.com/file/d/כאן_שמים_את_הקוד_של_הוידאו/preview"></iframe>
+                <iframe src="https://drive.google.com/file/d/כאן_שמים_את_הקוד_של_וידאו_2/preview"></iframe>
             </div>
 
             <div class="download-area">
-                <a href="#" class="download-btn" target="_blank">📄 הורדת דף עבודה - יום 2</a>
+                <a href="קישור_לקובץ_PDF_2" class="download-btn" target="_blank">📄 הורדת דף עבודה - יום 2</a>
             </div>
         </div>
 
@@ -198,15 +219,15 @@
             </div>
             
             <div class="video-container">
-                <iframe src="https://drive.google.com/file/d/כאן_שמים_את_הקוד_של_הוידאו/preview"></iframe>
+                <iframe src="https://drive.google.com/file/d/כאן_שמים_את_הקוד_של_וידאו_3/preview"></iframe>
             </div>
 
             <div class="download-area">
-                <a href="#" class="download-btn" target="_blank">📄 הורדת דף עבודה - יום 3</a>
+                <a href="קישור_לקובץ_PDF_3" class="download-btn" target="_blank">📄 הורדת דף עבודה - יום 3</a>
             </div>
         </div>
 
-        </div>
+    </div>
 
     <footer>
         כל הזכויות שמורות לאורי צירקין &copy; 2026
