@@ -48,6 +48,34 @@
             margin: 40px auto;
         }
 
+        /* תיבת הנחיות חדשה - מותאמת לעיצוב הסרטונים */
+        .important-notice-card {
+            background: white;
+            border-radius: 16px;
+            padding: 25px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            margin-bottom: 40px;
+            border-right: 8px solid var(--brand-orange); /* מסגרת כתומה */
+            text-align: right;
+        }
+
+        .important-notice-card h3 {
+            color: #d93025; /* אדום להדגשה של החשוב */
+            font-family: 'Rubik', sans-serif;
+            font-size: 1.4rem;
+            margin-top: 0;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .important-notice-card p {
+            margin: 10px 0;
+            font-size: 1.1rem;
+            color: #1e293b;
+            font-weight: 600;
+            line-height: 1.5;
+        }
+
         /* כרטיס שיעור */
         .lesson-card {
             background: white;
@@ -123,7 +151,7 @@
 
         @media (max-width: 600px) {
             .lesson-title { font-size: 1.2rem; }
-            .lesson-card { padding: 15px; }
+            .lesson-card, .important-notice-card { padding: 15px; }
         }
     </style>
 </head>
@@ -135,6 +163,12 @@
     </div>
 
     <div class="container">
+
+        <div class="important-notice-card">
+            <h3>חשוב!!!</h3>
+            <p>💡 מומלץ לצפות בכל סרטון מתחילתו ועד סופו ללא קובייה, לפני שמתחילים את הלימוד עם הקובייה.</p>
+            <p>💡 ייתכן שילדים עד גיל 9 יצטרכו עזרת מבוגר בהתחלה.</p>
+        </div>
 
         <div class="lesson-card intro-card">
             <div class="lesson-header">
